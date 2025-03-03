@@ -23,7 +23,7 @@ const ContactUs = () => {
 
         try {
             // Replace YOUR_ACCESS_KEY with your actual Web3Forms access key
-            const apiKey = "f8a649c6-247b-479b-91cd-6da805debe88";
+            const apiKey = "7be1aa4f-7cb1-4280-8f90-4259ad0f34a0";
 
             const response = await fetch("https://api.web3forms.com/submit", {
                 method: "POST",
@@ -60,7 +60,7 @@ const ContactUs = () => {
                         In case of any queries/doubts please contact us at
                         <br />
                         <a href="mailto:yedida.associates@yahoo.com" className="text-pink-600">
-                            yedida.associates@yahoo.com
+                            info@yedida.in
                         </a>
                     </h1>
                 </div>
